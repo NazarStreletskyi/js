@@ -1,0 +1,61 @@
+body{
+  background: #fbfbfb;
+}
+.wrap{
+  width: 75%;
+  background: #fff;
+  padding: 10px;
+  margin: 40px auto 0;
+  box-shadow: 7px 7px 5px #ccc;
+}
+h1{
+  font-size: 32px;
+  text-align: center;
+}
+h2{
+  font-size: 24px;
+  text-align: center;
+}
+.how-it-works{
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0;
+}
+.log-txt{
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0;
+}
+code{
+  color: #ca3d4f;
+}
+.button{
+  width: 140px;
+  height: 28px;
+  border: solid #225972 2px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px;
+  color: #225972;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 auto;
+
+}
+.button:hover{
+  border: solid #61BF4E 2px;
+  color: #61BF4E;
+}
+
+pre{
+  background: #EFEFEF;
+  padding: 10px 40px;
+  text-align: left;
+}
+
+.log-img{
+  margin: 20px auto;
+}
+img{
+    box-shadow: 3px 3px 3px #ccc;
+}

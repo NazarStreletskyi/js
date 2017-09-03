@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/main.css">
+  <title>JS homework</title>
+</head>
+<body>
+  <script src="assets/script.js"></script>
+  <div class="wrap">
+  <h1>Let's log some text to console</h1>
+  <div class="log-txt">Press enter event button to check <code>js</code> code</div>
+  <div class="button" onclick="inputData()">
+    Enter event
+  </div>
+  <div class="how-it-works">
+    <span>Here example how to make it work</span>
+  </div>
+    <pre>
+var name = "Asterix";
+var place = "Lviv";
+var time = "11";
+
+function inputData() {
+var ourEvent = prompt( "Please enter event type", "exhibition" );
+  if (ourEvent != null) {
+    console.log(name + " want vist " + ourEvent +
+    " in " + place + " at " + time +" o'clock" );
+  }
+}
+</pre>
+<div class="log-txt">
+  Now check the result at console
+  <div class="log-img">
+    <img src="assets/img/console.png" alt="console log image">
+  </div>
+  <div class="log-img">
+    <h2>It works!!!</h2>
+    <img src="assets/img/its-alive-gif.gif" alt="it's alive!">
+  </div>
+</div>
+</body>
+</html>
