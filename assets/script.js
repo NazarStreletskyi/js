@@ -6,7 +6,6 @@ var eur = 30.65;
 var usd = 25.74;
 
 
-
 function inputData() {
   var ourEvent = prompt( "Please enter event type", "exhibition" );
    if (ourEvent != null ) {
