@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/flags.css">
   <title>JS homework</title>
 </head>
 <body>
@@ -40,6 +41,34 @@ var ourEvent = prompt( "Please enter event type", "exhibition" );
     <h2>It works!!!</h2>
     <img src="assets/img/its-alive-gif.gif" alt="it's alive!">
   </div>
+</div>
+  <div class="what-next">
+    <h2>What next?</h2>
+    <div class="convert">
+      So, now you are super cool programmer who knows how to log something to console.
+      It's time to count your profit and plan a vacation somewhere in EU or US.
+      But first, we need to convert our money, like real programmer you do not want to use all
+      these bull shitt online converters you will write your own.
+    </div>
+    <div class="inputs">
+      <div class="grn">
+        <form name="countMoney" class="grn-convert" action="">
+          How much hruvnia's you have ? <br>
+          <div class="flag-ua"></div>
+          <input type="number" name="grninput" value="" id='grn-ua'>
+        </form>
+      </div>
+      <div class="count" onclick="convert()">></div>
+      <div class="real-money">
+        <form class="result" action="">
+          <div class="flag-eu"></div>
+          <input type="number" value="0" id="result-eu">
+          <br><br>
+          <div class="flag-us"></div>
+          <input type="text" value="0" id="result-us">
+        </form>
+      </div>
+    </div>
 </div>
 </body>
 </html>
