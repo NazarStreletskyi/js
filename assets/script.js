@@ -16,8 +16,8 @@ function inputData() {
 
 function convert() {
   var grn = document.getElementById('grn-ua').value;
-  var euro = grn/parseFloat(eur);
-  var usa = grn/parseFloat(usd);
+  var euro = grn/eur;
+  var usa = grn/usd;
   var resultEuro = Math.round(euro).toFixed(1);
   var resultUSD = Math.round(usa).toFixed(1);
 
