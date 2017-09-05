@@ -1,2 +1,2 @@
 # js
-JavaSript homeworks
+JavaSсript homeworks
